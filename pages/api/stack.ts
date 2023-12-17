@@ -29,6 +29,9 @@ export default async function handler(
   res: NextApiResponse
 ) {
   await runMiddleware(req, res, cors)
-
-  res.status(200).send({...StackExample})
+  if (req.method == "GET") {
+    res.status(200).send({ ...StackExample })
+  } else {
+    res.status(400)
+  }
 }
