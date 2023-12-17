@@ -1,0 +1,31 @@
+{
+    "stackSize":5,
+    "topIndex":3,
+    "stack":[
+        {
+            "num":5,
+            "hasItem":true,
+            "top":false
+        },
+        {
+            "num":9,
+            "hasItem":true,
+            "top":false
+        },
+        {
+            "num":4,
+            "hasItem":true,
+            "top":false
+        },
+        {
+            "num":6,
+            "hasItem":true,
+            "top":true
+        },
+        {
+            "num":null,
+            "hasItem":false,
+            "top":false
+        }
+    ]
+}

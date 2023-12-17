@@ -1,13 +1,11 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
+import { promises as fs } from 'fs';
 
-type Data = {
-  name: string
-}
 
-export default function handler(
+export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>
+  res: NextApiResponse
 ) {
-  res.status(200).json({ name: 'John Doe' })
+  const file = await fs.readFile(process.cwd() + '/public/StackExample.json', 'utf8');
+  res.status(200).send(file)
 }
