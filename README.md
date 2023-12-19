@@ -20,7 +20,7 @@ $ pnpm run start:dev
 $ pnpm run start:prod
 ```
 
-## 使用框架
+## 使用框架：Nest.js
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
