@@ -1,0 +1,43 @@
+{
+    "queueSize": 6,
+    "frontIndex": 0,
+    "backIndex": 4,
+    "queue": [
+        {
+            "num": 3,
+            "hasItem": true,
+            "front": true,
+            "back": false
+        },
+        {
+            "num": 5,
+            "hasItem": true,
+            "front": false,
+            "back": false
+        },
+        {
+            "num": 2,
+            "hasItem": true,
+            "front": false,
+            "back": false
+        },
+        {
+            "num": 6,
+            "hasItem": true,
+            "front": false,
+            "back": false
+        },
+        {
+            "num": 9,
+            "hasItem": true,
+            "front": false,
+            "back": true
+        },
+        {
+            "num": null,
+            "hasItem": false,
+            "front": false,
+            "back": false
+        }
+    ]
+}

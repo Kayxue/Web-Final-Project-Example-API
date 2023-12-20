@@ -3,9 +3,10 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { StackModule } from './stack/stack.module';
 import { ArrayModule } from './array/array.module';
+import { QueueModule } from './queue/queue.module';
 
 @Module({
-  imports: [StackModule, ArrayModule],
+  imports: [StackModule, ArrayModule, QueueModule],
   controllers: [AppController],
   providers: [AppService],
 })
