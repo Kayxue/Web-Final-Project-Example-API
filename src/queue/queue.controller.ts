@@ -6,6 +6,6 @@ export class QueueController {
     @Get()
     @HttpCode(200)
     public retriveQueueExample(){
-        return;
+        return QueueExample
     }
 }
